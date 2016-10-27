@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="19 28.5 7.83208021 34.3713229 9.9649631 21.9356614 0.92992619 13.1286771 13.4160401 11.3143386 19 0 24.5839599 11.3143386 37.0700738 13.1286771 28.0350369 21.9356614 30.1679198 34.3713229"></polygon>
+    </defs>
+    <g id="--UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-4-Logo-Package" transform="translate(-1051.000000, -519.000000)">
+            <g id="Group-9" transform="translate(1053.000000, 521.000000)">
+                <circle id="Oval-95-Copy-2" stroke="#6B7A85" stroke-width="4" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+                <g id="Group-2" transform="translate(21.000000, 20.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Star-27" fill="#9FB0BD" xlink:href="#path-1"></use>
+                    <polygon id="Rectangle-647" fill="#6B7A85" mask="url(#mask-2)" points="19 -1 37 -1 37 13 19 17"></polygon>
+                    <polygon id="Rectangle-647-Copy" fill="#6B7A85" mask="url(#mask-2)" points="1 13 19 17 19 29 1 39"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

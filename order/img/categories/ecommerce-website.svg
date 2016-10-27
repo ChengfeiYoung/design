@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-ecommerce</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="3" y="7" width="54" height="38"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="56" height="40">
+            <rect x="2" y="6" width="56" height="40" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <path d="M23.0161619,52 C24.5933327,51 26.6905559,48.7136028 26.5664264,46 L33.4722543,46 C33.3441229,48.7585505 35.445348,51 36.0161619,52 C37.4184417,52 37.8684891,53.1634083 37.8684891,53.1634083 C38.1647895,53.6254451 37.9563969,54 37.4060931,54 L22.6325876,54 C22.0809129,54 21.8433267,53.5952702 22.1088789,53.1169491 C22.1088789,53.1169491 22.6226476,52 23.0161619,52 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="18.0033964" height="10">
+            <rect x="21" y="45" width="18.0033964" height="10" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+        <rect id="path-5" x="23" y="51" width="13" height="1"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="13" height="1" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="2" y="36" width="56" height="1"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="1" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="8" y="17" width="10" height="1"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="1" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="8" y="20" width="20" height="1"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="1" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="8" y="23" width="20" height="1"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="1" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="8" y="26" width="10" height="1"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="1" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+    </defs>
+    <g id="logoworks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-colour" transform="translate(-139.000000, -233.000000)">
+            <g id="ic-ecommerce" transform="translate(139.000000, 233.000000)">
+                <rect id="Rectangle-431-Copy-13" fill-opacity="0" fill="#FF5D5D" x="0" y="0" width="60" height="60"></rect>
+                <g id="Rectangle-29">
+                    <use fill="#66D6E3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#4B5C65" mask="url(#mask-2)" stroke-width="2" stroke-linejoin="round" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-59" fill="#F1F6F9" x="3" y="37" width="54" height="8"></rect>
+                <circle id="Oval-2" fill="#56C3D0" cx="30" cy="41" r="1"></circle>
+                <g id="Rectangle-29-Copy">
+                    <use fill="#F1F6F9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#4B5C65" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                </g>
+                <polygon id="Rectangle-59" fill="#D3DFE6" points="26.5300293 46 33.5350952 46 34.0143433 48.9223633"></polygon>
+                <polygon id="Rectangle-60" fill="#56C3D0" points="39 7 57 7 57 36 24 36"></polygon>
+                <use id="Rectangle-31" stroke="#4B5C65" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                <use id="Rectangle-31" stroke="#4B5C65" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-10)" stroke-width="2" xlink:href="#path-9"></use>
+                <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-12)" stroke-width="2" xlink:href="#path-11"></use>
+                <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-14)" stroke-width="2" xlink:href="#path-13"></use>
+                <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-16)" stroke-width="2" xlink:href="#path-15"></use>
+                <polygon id="Rectangle-128" stroke="#4B5C65" stroke-linejoin="round" fill="#F1F5F8" points="39 19 49 19 47.1818182 24 40.8181818 24"></polygon>
+                <circle id="Oval-17" fill="#4B5C65" cx="41" cy="26" r="1"></circle>
+                <circle id="Oval-17-Copy" fill="#4B5C65" cx="46" cy="26" r="1"></circle>
+                <path d="M47.5,18.5 L50.5,18.5" id="Line" stroke="#4B5C65" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

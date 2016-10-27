@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>价格与方案_独角鲸</title>
+<meta name="description" content="独角鲸" />
+<meta name="keywords" content="独角鲸" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" sizes="16x16 32x32" href="favicon.ico" />
+<link rel="stylesheet" media="screen" href="/static/css/global.css" />
+<script type="text/javascript" src="/static/front/js/jquery_002.js"></script>
+<script type="text/javascript" src="/static/front/js/jquery.js"></script>
+<!--[if IE 7]>  
+	<script type='text/javascript' src="/static/front/js/excanvas.js"></script>  
+	<link rel="stylesheet" href="/static/front/css/layout-ie.css" type="text/css" media="screen" />  
+	<![endif]-->
+<!--[if IE 8]>  
+	<script type='text/javascript' src="/static/front/js/excanvas.js"></script>  
+	<link rel="stylesheet" href="/static/front/css/layout-ie.css" type="text/css" media="screen" />  
+	<![endif]-->
+
+<script type="text/javascript">
+  //文件上传地址
+  var upload_url = '/file/doUpload';
+  //上传images 允许类型
+  var image_allowed_extensions = 'jpg,gif,png';
+  //允许上传的压缩包的类型
+  var zip_allowed_extensions = 'zip';
+   //允许上传的pdf
+  var pdf_allowed_extensions = 'pdf';
+  //允许上传的文件大小
+  var max_file_size = '100m';
+  
+  var admin_assets_url = '/ace_static/';
+  
+  
+
+</script>
+</head>
+<body class="sl_notranslate">
+<div class="oc-wrapper" data-oc-name="left right" data-globalnavui="" data-globalnavui-userrole="logged-out" data-page-wrapper="">
+<div class="oc-content--main" data-oc-canvas="left right">
+  <div class="app ">
+    <div class="app__header">
+      <header class="site-header site-header--signed-out">
+        <div class="site-header__support-bar">
+          <div class="support-bar">
+            <div class="support-bar__inner">
+              <div class="support-bar__consultation"> <a class="support-bar__consultation__link legacy-compat-uppercase" href="design-consultation">Request a design consultation<span class="icon icon--offset-left icon--right-1"></span></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="site-header__inner1">
+          <div class="site-header__inner2">
+            <div class="site-header__item site-header__item--left-oc-trigger">
+              <button class="site-header__left-oc-trigger" type="button" data-oc-trigger="left"> <img src="/static/front/images/small_menu.png" style="height:auto;max-width:50px;width:25px;" /></button>
+            </div>
+            <div class="site-header__item site-header__item--branding"> <a class="site-header__site-logo" href="/"><span class="site-header__site-logo__image" title=""></span></a> </div>
+            <div class="site-header__item site-header__item--primary-navigation">
+              <div class="top-level-nav "> <span data-global-nav-categories-menu="">
+                <div data-detached-dropdown="" data-categories-menu-detached-dropdown="" data-detached-dropdown-location="down-left" data-detached-dropdown-location-forced="" class="top-level-nav__item top-level-nav__item--first"> <a class="top-level-nav__item__link legacy-compat-uppercase" href="javascript:void(0);" data-no-link="" data-detached-dropdown-trigger="">服务 <span><img src="/static/front/images/down.jpg"  /></span></a>
+                  <div data-detached-dropdown-content="">
+                    <div data-detached-dropdown-content-inner="">
+                      <div class="nested-menu" data-global-nav-categories-nested-menu="">
+                        <div class="nested-menu__inner">
+                          <div class="nested-menu__item nested-menu__item--nested" data-global-nav-categories-nested-menu-item="">
+                            <div class="nested-menu__item__action nested-menu__item__action--nested" data-global-nav-categories-action=""> <a class="nested-menu__item__action__link" href="default.htm" data-global-nav-categories-action-link="" data-detached-dropdown-no-close="" data-no-link=""> <span class="nested-menu__item__action__label menu_dot">标志及品牌设计</span> <span class="nested-menu__item__action__icon"> <img src="/static/front/images/goright.png" width="40%" /> </span> </a>
+                              <div class="nested-menu__item__action__children" data-global-nav-categories-action-children="">
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">LOGO标志设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">名片设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">VI设计</span></a> </div>
+                              </div>
+                            </div>
+                            <div class="nested-menu__item__action nested-menu__item__action--nested" data-global-nav-categories-action=""> <a class="nested-menu__item__action__link" href="default.htm" data-global-nav-categories-action-link="" data-detached-dropdown-no-close="" data-no-link=""> <span class="nested-menu__item__action__label menu_dot">网站与移动设计</span> <span class="nested-menu__item__action__icon"> <img src="/static/front/images/goright.png" width="40%" /> </span> </a>
+                              <div class="nested-menu__item__action__children" data-global-nav-categories-action-children="">
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">网站／微站UI设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">产品/众筹详情页</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">手机APP UI设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">专题／活动着陆页</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">H5活动传播页面</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">广告Banner</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">图标ICON</span></a> </div>
+                              </div>
+                            </div>
+                            <div class="nested-menu__item__action nested-menu__item__action--nested" data-global-nav-categories-action=""> <a class="nested-menu__item__action__link" href="default.htm" data-global-nav-categories-action-link="" data-detached-dropdown-no-close="" data-no-link=""> <span class="nested-menu__item__action__label menu_dot">商业与广告设计</span> <span class="nested-menu__item__action__icon"> <img src="/static/front/images/goright.png" width="40%" /> </span> </a>
+                              <div class="nested-menu__item__action__children" data-global-nav-categories-action-children="">
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">传单／易拉宝</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">宣传册／菜单</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">海报设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">信息图</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">PPT</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">招牌／灯箱</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">产品包装设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">促销品/礼品设计</span></a> </div>
+                              </div>
+                            </div>
+                            <div class="nested-menu__item__action nested-menu__item__action--nested" data-global-nav-categories-action=""> <a class="nested-menu__item__action__link" href="default.htm" data-global-nav-categories-action-link="" data-detached-dropdown-no-close="" data-no-link=""> <span class="nested-menu__item__action__label menu_dot">漫画及插图</span> <span class="nested-menu__item__action__icon"> <img src="/static/front/images/goright.png" width="40%" /> </span> </a>
+                              <div class="nested-menu__item__action__children" data-global-nav-categories-action-children="">
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">卡通形象设计</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">漫画设计创作</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">商业插画</span></a> </div>
+                                <div class="nested-menu__child-item "> <a class="nested-menu__child-item__link" href="/frontSite/demoShow"><span class="nested-menu__child-item__label">图案与花纹</span></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </span>
+                <div class="top-level-nav__item legacy-compat-uppercase"> <a class="top-level-nav__item__link " href="/frontSite/priceOndemand">价格</a> </div>
+                <div class="top-level-nav__item legacy-compat-uppercase"> <a class="top-level-nav__item__link " href="/frontSite/case">案例</a> </div>
+                <div class="top-level-nav__item legacy-compat-uppercase"> <a class="top-level-nav__item__link " href="javascript:void(0);">支持</a> </div>
+              </div>
+            </div>
+            <div class="site-header__item site-header__item--account-navigation">
+              <div class="top-level-nav "> <span class="login_btn"><a class="top-level-nav__item__link SMOKETEST_login_link legacy-compat-uppercase" href="/frontLogin/login" style="color:#fff;">登录/注册</a></span> </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="app__content"> </div>
+  </div>
+  <div class="user_center space_bottom">
+    <div class="title36">价格和方案</div>
+    <div class="title14">现在下单，我们最快24小时内为您交付多款创意提案</div>
+    <div class="price_menu">
+      <ul>
+        <li><a href="" class="focus">按需服务</a></li>
+        <li><a href="">虚拟团队</a></li>
+        <li><a href="">品牌速造</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="box_bg" style="overflow:hidden;background-color: #f5f5f5;">
+    <div class="user_center">
+      <div class="title24">按需设计服务</div>
+      <div class="title14">独角鲸所有按需设计服务均可享受不满意100%退款保证</div>
+      <div class="price_ondemand_box">
+        <form id="form1" name="form1" method="post" action="">
+          <select name="select" id="select" class="price_ondemand_select" onchange="redirect_url(this)">
+            <option value="15" selected="selected">LOGO标志设计</option>
+            <option value="16" >名片设计</option>
+            <option value="18" >VI设计</option>
+            <option value="19" >传单／易拉宝</option>
+            <option value="20" >宣传册／菜单</option>
+            <option value="21" >海报设计</option>
+            <option value="22" >信息图</option>
+            <option value="23" >PPT</option>
+            <option value="24" >招牌／灯箱</option>
+            <option value="25" >产品包装设计</option>
+            <option value="26" >促销品/礼品设计</option>
+            <option value="27" >网站／微站UI设计</option>
+            <option value="28" >产品/众筹详情页</option>
+            <option value="29" >手机APP UI设计</option>
+            <option value="30" >专题／活动着陆页</option>
+            <option value="31" >H5活动传播页面</option>
+            <option value="32" >广告Banner</option>
+            <option value="33" >图标ICON</option>
+            <option value="34" >卡通形象设计</option>
+            <option value="35" >漫画设计创作</option>
+            <option value="36" >商业插画</option>
+            <option value="37" >图案与花纹</option>
+          </select>
+        </form>
+      </div>
+      
+      <!-- 价格方案 start-->
+      <div class="price_box">
+        <ul>
+          <li>
+            <p class="title20">执行</p>
+            <p class="text20">有限预算</p>
+            <p class="pirce">￥11113.00</p>
+            <p class="bottomline">＊适合预算有限的个人创业</p>
+            <p class="bottomline height_box"> <span>3款设计方案</span> <span>100%退款保障</span> <span>三年以上经验设计师1对1服务</span> </p>
+            <p align="center">
+              <input type="submit" name="button" id="button" class="btn" value="选择">
+            </p>
+          </li>
+          <li>
+            <p class="title20">设计</p>
+            <p class="text20">品牌初创</p>
+            <p class="pirce">￥11113.00</p>
+            <p class="bottomline">＊适合初创型企业</p>
+            <p class="bottomline height_box"> <span>6款设计方案</span> <span>100%退款保障</span> <span>五年以上经验设计师1对1服务</span> <span>30天内方案免费修改</span> </p>
+            <p align="center">
+              <input type="submit" name="button" id="button" class="btn" value="选择">
+            </p>
+          </li>
+          <li class="kuang">
+            <p class="best">最佳性价比</p>
+            <p class="title20">创作</p>
+            <p class="text20">总监级多套提案</p>
+            <p class="pirce">￥11113.00</p>
+            <p class="bottomline">＊适合中小型企业</p>
+            <p class="bottomline height_box"> <span>9款设计方案</span> <span>100%退款保障</span> <span>八年以上经验设计总监1对1服务</span> <span>品牌顾问1对1支持</span> <span>60天内方案免费修改</span> </p>
+            <p align="center">
+              <input type="submit" name="button" id="button" class="btn_on2" value="开始">
+            </p>
+          </li>
+          <li>
+            <p class="title20">创意竞赛</p>
+            <p class="text20">获奖设计师</p>
+            <p class="pirce">￥11113.00</p>
+            <p class="bottomline">＊适合大中型企业</p>
+            <p class="bottomline height_box"> <span>15款设计方案</span> <span>100%退款保障</span> <span>3位总监级获奖设计师进行创意竞赛</span> <span>专属创意总监1对1支持</span> <span>60天内方案免费修改</span> </p>
+            <p align="center">
+              <input type="submit" name="button" id="button" class="btn" value="选择">
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="box10">
+    <div class="title20">立刻开始您的项目</div>
+    <div class="start_box">
+      <input type="text" name="textfield2" placeholder="输入您的电话或邮箱" id="textfield2" class="inputbox width70"/>
+      <input type="submit" name="button" id="button" class="btn_start width30" value="开始创意">
+    </div>
+    <div class="clearfix"></div>
+    <div class="next">
+      <p><img src="/static/front/images/next01.jpg"></p>
+      <p><span class="left_box_price"><img src="/static/front/images/next02.jpg"></span><span class="right_box_price">独角鲸所有按需服务均享有100%不满意退款服务，和原创
+        保证。价格中已包括全尺寸设计源文件以及相关版权。您只
+        需要简单几步，即可获得满意成果。</span></p>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <div class="box10 line_hr space-40">
+    <ul class="title20">
+      常见问题
+    </ul>
+    <!-- 伸缩菜单 start -->
+    <div id="firstpane" class="menu_list">
+      <h3 class="menu_head current line_hr">独角鲸是什么？</h3>
+      <div style="display:block" class="menu_body"> 独角鲸是一个为客户提供高品质、精准、便捷地对接最优秀设计师的互联网平台。在这里，我们期望架起设计师和客户之间信任的桥梁，让客户的设计需求可以得到充分满
+        足，让设计师可以享受自由工作乐趣。 </div>
+      <h3 class="menu_head line_hr">独角鲸与其他设计平台有什么区别？</h3>
+      <div style="display:none" class="menu_body"> 独角鲸是一个为客户提供高品质、精准、便捷地对接最优秀设计师的互联网平台。在这里，我们期望架起设计师和客户之间信任的桥梁，让客户的设计需求可以得到充分满
+        足，让设计师可以享受自由工作乐趣。 </div>
+      <h3 class="menu_head line_hr">独角鲸创意</h3>
+      <div style="display:none" class="menu_body"> 独角鲸是一个为客户提供高品质、精准、便捷地对接最优秀设计师的互联网平台。在这里，我们期望架起设计师和客户之间信任的桥梁，让客户的设计需求可以得到充分满
+        足，让设计师可以享受自由工作乐趣。 </div>
+      <div class="more"><a href="">查看全部问题</a></div>
+    </div>
+    <script>
+$(document).ready(function(){
+  $("#firstpane .menu_body:eq(0)").show();
+  $("#firstpane h3.menu_head").click(function(){
+    $(this).addClass("current").next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+    $(this).siblings().removeClass("current");
+  });
+  $("#secondpane .menu_body:eq(0)").show();
+  $("#secondpane h3.menu_head").mouseover(function(){
+    $(this).addClass("current").next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+    $(this).siblings().removeClass("current");
+  });
+});
+</script> 
+    <!-- 伸缩菜单 end --> 
+    
+  </div>
+  <div class="question">
+    <div class="question_left"><img src="/static/front/images/pc_question.jpg"></div>
+    <div class="question_right">
+      <p class="question_title30">有更多问题？</p>
+      <p class="question_text14">Our support gurus are here to help you achieve design enlightenment.Check out our FAQs,send us an email,or give us a call.</p>
+      <p class="question_tel">400 820 8888</p>
+      <p class="question_guwen">免费创意顾问 <img src="/static/front/images/question_icon04.jpg"></p>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <script type="text/javascript">
+  function redirect_url(a){
+    var id  = $(a).val();
+    location.href='/frontSite/priceOndemand?option_id='+id;
+  }
+</script> 
+  
+  <!-- 页脚 PC start-->
+  <div class="foot">
+    <div class="foot_box">
+      <div class="box_left">
+        <p><img src="/static/front/images/logo.png" /></p>
+        <p><img src="/static/front/images/erweima.jpg" /></p>
+        <p>关注微信获取特权</p>
+      </div>
+      <div class="box_right">
+        <ul>
+          <li>
+            <p class="title14">公司</p>
+            <p><a href="">关于我们</a></p>
+            <p><a href="">媒体报道</a></p>
+            <p><a href="">加入我们</a></p>
+          </li>
+          <li>
+            <p class="title14">服务</p>
+            <p><a href="">服务索引</a></p>
+            <p><a href="">如何工作</a></p>
+            <p><a href="">价格</a></p>
+            <p><a href="">创意人入住</a></p>
+          </li>
+          <li>
+            <p class="title14">解决方案</p>
+            <p><a href=""></a><a href="">虚拟团队</a></p>
+            <p><a href=""></a><a href="">品牌速造</a></p>
+          </li>
+          <li>
+            <p class="title14">支持</p>
+            <p><a href="">创意顾问</a></p>
+            <p><a href="">帮助</a></p>
+            <p><a href="">常见问题</a></p>
+            <p><a href="">服务条款</a></p>
+          </li>
+          <li>
+            <p class="title14">联系方式</p>
+            <p>400-820-4444</p>
+            <p><a href="">在线客服</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="copyright"> <span class="left_text">&copy;独角鲸 2016 上海全角网络科技有限公司</span> <span class="right_text">沪ICP备1029831-1号</span> </div>
+  </div>
+  <!-- 页脚 PC end--> 
+  <!-- 页脚 mb start-->
+  <div class="m_foot_top">
+    <p class="font24">现在联系您的创意顾问</p>
+    <p>
+      <input type="submit" name="button" id="button" class="btn" value="开始设计" />
+    </p>
+  </div>
+  <div class="m_foot">
+    <div class="foot_box">
+      <p><img src="/static/front/images/logo.png" /></p>
+      <p><img src="/static/front/images/erweima.jpg" /></p>
+      <p>关注微信获取特权</p>
+    </div>
+    <div class="copyright">
+      <p>&copy;独角鲸 2016 上海大角网络科技有限公司</p>
+      <p>沪ICP备1029831-1号</p>
+    </div>
+  </div>
+  <!-- 页脚 mb end--> 
+  
+  <!-- 左侧弹出菜单 start -->
+  <div class="oc-content" data-oc-content="left">
+    <div class="off-canvas-nav off-canvas-nav--signed-out">
+      <div class="menu ">
+        <div class="menu__inner left_menu">
+          <ul class="home_box">
+            <span class="home"><img src="/static/front/images/home.png" /></span> <span class="cancer"><img src="/static/front/images/cancer.png" data-oc-trigger="left" /></span>
+          </ul>
+          <ul>
+            <li>
+              <input type="button" onclick="location.href='/frontUserCenter/projects'" name="button" id="button" class="btn" value="我的项目" />
+            </li>
+          </ul>
+          <ul class="left_menu_list borderline">
+            <li class="service"><a href="/frontSite/allSerivce">服务</a></li>
+            <li class="price"><a href="/frontSite/demoShow">价格</a></li>
+            <li class="anli"><a href="/frontSite/case">案例</a></li>
+          </ul>
+          <ul class="left_menu_list">
+            <li class="kehu"><a href="javascript:void(0);">客户支持 &nbsp; &nbsp; &nbsp; &nbsp;<img src="/static/front/images/menu_down.png" /></a></li>
+            <li class="icon_blank"><a href="javascript:void(0);">创建项目</a></li>
+            <li class="icon_blank"><a href="javascript:void(0);">关于我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 左侧弹出菜单 end --> 
+  
+  <!-- 右侧弹出菜单 start -->
+  <div class="oc-content pc_menu_height" data-oc-content="right" style="border-left:1px solid #ddd;">
+    <div class="off-canvas-nav off-canvas-nav--signed-out">
+      <div class="menu ">
+        <div class="menu__inner left_menu">
+          <ul class="home_box">
+            <span class="home"><img src="/static/front/images/xiaoxi.png">&nbsp; 消息（<span style="color:#f40;">3</span>）</span> <span class="cancer" style="margin-right: 30px;"><img src="/static/front/images/cancer.png" data-oc-trigger="left"></span>
+          </ul>
+          <ul class="right_menu_list2 ">
+            <li class="user_img_line"><img src="/static/front/images/touxiang.jpg" class="user_img"> </li>
+            <li class="dingdan"><a href="#">我的订单</a></li>
+            <li class="shezhi"><a href="#">账户设置</a></li>
+            <li class="tuichu"><a href="/frontLogin/doLogout">退出</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 右侧弹出菜单 end --> 
+  
+</div>
+<script src="/static/front/js/pop_menu.js"></script> 
+<!-- <script src="/static/front/js/index.js"></script> 
+   <script src="/static/front/js/home.js"></script> -->
+
+</body>
+</html>

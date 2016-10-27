@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-2-Logo-colour" transform="translate(-733.000000, -1683.000000)">
+            <g id="icon" transform="translate(733.000000, 1683.000000)">
+                <g id="Group-7">
+                    <rect id="Rectangle-38-Copy-2" fill="#FFFFFF" x="0" y="0" width="160" height="160"></rect>
+                    <polygon id="Star-2" stroke="#4B5C65" stroke-width="2" fill="#9FB0BC" points="80.5 100.034904 67.1304634 103.178115 61.2271416 90.6581427 50.4589238 82.0576904 56.4671387 69.5887512 56.4089274 55.7209515 69.8043705 52.6924112 80.5 44 91.1956295 52.6924112 104.591073 55.7209515 104.532861 69.5887512 110.541076 82.0576904 99.7728584 90.6581427 93.8695366 103.178115"></polygon>
+                    <polygon id="Star-2" stroke="#4B5C65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#D3DFE6" transform="translate(80.500000, 80.921053) scale(1, -1) translate(-80.500000, -80.921053) " points="80.5 104.533199 39 116.842106 70.4154655 87.0755069 80.5 45 90.5845345 87.0755069 122 116.842106"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

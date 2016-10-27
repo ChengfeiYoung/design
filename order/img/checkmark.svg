@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements/buttons/checkmark-off">
+            <g id="Group">
+                <circle id="Oval-57" fill="#1EB8B4" cx="22" cy="22" r="22"></circle>
+                <path d="M31.3538116,17.2105148 L20.8550896,29.1597465 C20.5965585,29.4538304 20.2363211,29.6051873 19.873459,29.6051873 C19.5854004,29.6051873 19.2960293,29.5095935 19.0545587,29.3144227 L12.4922013,24.003653 C11.9265826,23.5455992 11.8347188,22.7098168 12.2881324,22.1375814 C12.7402336,21.5653459 13.5663518,21.4717436 14.1326266,21.9297975 L19.7212276,26.4532455 L29.3918629,15.4460116 C29.8728356,14.8976746 30.7028908,14.8478862 31.2448873,15.3358131 C31.7862277,15.8230762 31.8354404,16.6621778 31.3538116,17.2105148 L31.3538116,17.2105148 Z" id="check" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

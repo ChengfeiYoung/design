@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2">
+    <meta name="description" content="申请入驻独角鲸，立刻开始自由工作">
+    <meta name="keywords" content="威客,众包,logo设计,品牌设计师,UI 设计师,文案策划,撰稿人,自由职业">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/apply.css">
+    <title>
+        
+创意人入驻 - 独角鲸
+
+    </title>
+</head>
+<body>
+    
+    <div class="wrap" id="wrap">
+
+        
+        <div class="header">
+            <div class="header_inner">
+
+                
+                <h1 class="logo">
+                    <a href="/">
+                        <img class="logo_text" src="images/logo_white.png" width="140">
+                    </a>
+                </h1>
+                
+
+                
+
+            </div>
+        </div>
+        
+
+        
+<div class="container">
+    <div class="section_apply_title">
+        <div class="inner">
+            <div class="text_area">
+                <h2>申请入驻独角鲸</h2>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade in" id="signIn" tabindex="-1" role="dialog" aria-labelledby="designService" aria-hidden="false" style="display: block; padding-left: 0px;"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"> <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button><div style="text-align:center;"> <span class="lead">登录独角鲸</span></div></div><div class="modal-body" id="signin-panel"><div id="auth"><div id="register-panel" style="display: none;"><form id="create-account-form" name="reg" action="http://www.livspace.com/authentication" method="post" autocomplete="on"><fieldset><div class="form-group row"><div class="col-xs-12"> <label for="firstname">Name</label> <input type="text" id="firstname" name="firstname" value="" class="auth_account_input required form-control" autocomplete="section-reg given-name"></div><div style="display:none"> <label for="lastname">Last Name</label> <input type="text" id="lastname" name="lastname" value="-" class="auth_account_input required form-control" autocomplete="section-reg family-name"></div></div><div class="form-group"> <label for="email">Email</label> <input type="text" id="account-email" name="email" value="" class="auth_account_input required email form-control" autocomplete="section-reg email"></div><div class="form-group"> <label for="email_confirm">Re-enter Email</label> <input type="text" id="email_confirm" name="email_confirm" value="" class="auth_account_input required email form-control" autocomplete="section-reg email"></div><div class="form-group"> <label for="new-password">New Password</label> <input type="password" id="new-password" name="passwd" class="auth_account_input required password form-control" autocomplete="section-reg new-password"></div><div class="form-group"> <input type="submit" id="submitAccount" name="submitAccount" class="btn btn-default btn-primary" value="Create Account"></div></fieldset></form><div class="login-btn" style="margin: 30px 0px; display: none;">已有账户? <a class="login-btn btn btn-default" href="#" id="login-btn" style="display: none;">登录</a></div></div><div class="sign-in-form"><div class="text-left" id="login-panel"><form id="login-form" action="http://www.livspace.com/authentication?back=" method="post" class=""><fieldset><div class="form-group"> <label for="phone">手机号码</label> <input type="text" id="login-phone" name="phone" value="" class="auth_account_input required email form-control" placeholder="手机号码"></div><div class="form-group"> <label for="password">密码</label> <input type="password" id="password" name="passwd" class="auth_account_input required password form-control" placeholder="Password"></div><div class="form-group"> <input type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-primary" value="登录"></div></fieldset><p class="lost_password"><a href="http://www.livspace.com/password-recovery">忘记密码</a></p></form><div class="register-btn" style="margin:20px 0px;">New To Livspace? <span class="register-btn btn btn-default" id="register-btn" style="">Create Account</span></div></div></div><div class="social-connect" style="border-top:1px solid #CCC;padding:10px"><div class="sc-buttons"><div class="sc-fb"> <span class="sc-fb-left"></span> <span class="sc-fb-right"><div class="fb-text social-text"> <i class="fb-icon icon icon-facebook"></i> Connect with Facebook</div> </span></div><div id="status"></div></div></div></div><div class="clearfix"></div></div></div></div></div>
+    <div class="section_apply">
+        <div class="inner login">
+            <form class="form_group" action="" method="POST">
+            <input type='hidden' name='csrfmiddlewaretoken' value='oKQ7paDeC2HvZhDz5OiJPfo9NgQmDJcq' />
+
+
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+        <tr>
+
+          <td class="font14 td_height width15">手机号</td>
+
+          <td class="width85">
+
+            <input type="text" name="mobile" id="mobile" class="input_box"/>
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>&nbsp;</td>
+
+          <td class="red12 td_height hidden">* 请输入正确的手机号！</td>
+			<td class="red12 td_height hidden">* 此手机号已经注册，请更换其他手机号码！</td>
+        </tr>
+
+        <tr>
+
+          <td class="font14 td_height width15">验证码</td>
+
+          <td class="width85">
+
+            <input type="text" name="mobile_code" id="mobile_code" class="input_box widht73" />
+
+
+
+            <a  href="javascript:void(0);"class="yzm" onclick="getSmsCode(this)" attr="1" />发送验证码</a>
+
+            
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>&nbsp;</td>
+
+          <td class="red12 td_height hidden">* 验证码错误</td>
+
+        </tr>
+
+       
+        <tr>
+
+          <td class="font14 td_height"></td>
+
+          <td><input name="checkbox" type="checkbox" id="checkbox" checked="checked" /> 我已阅读并同意独角鲸的服务条款</td>
+
+        </tr>
+
+        <tr>
+
+          <td class="font14 td_height"></td>
+
+          <td> <input type="submit" name="button" id="button" class="btn" value="下一步" /></td>
+
+        </tr>
+
+        <tr>
+
+          <td>&nbsp;</td>
+
+          <td class="red12 td_height"></td>
+
+        </tr>
+
+        <tr>
+
+          <td class="font14 td_height"></td>
+
+          <td>已有账号？请<a href="/frontLogin/login" style="color:#39af6f;">登录</a></td>
+
+        </tr>
+
+      </table>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+        
+        <div class="footer">
+            <div class="inner">
+                <div class="ft_copy">© 2016 独角鲸 沪 ICP 备 16028114 号</div>
+            <div>
+        </div>
+        
+    </div>
+    
+    <script src="js/common.min.js"></script>
+    
+</body>
+</html>
+

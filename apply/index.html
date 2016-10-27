@@ -1,0 +1,408 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="申请入驻独角鲸，立刻开始自由工作">
+<meta name="keywords" content="设计师招募,文案策划招募,MG动画师招募,写手招募,威客,众包,logo设计,品牌设计师,UI 设计师,文案策划,撰稿人,自由职业">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="/static/front/css/71e575a.css">
+<link rel="stylesheet" href="css/linx-icons.css">
+<link rel="stylesheet" href="css/apply.css">
+<title>独角鲸~创意人招募 - 是时候换一种全新的工作方式了!</title>
+<script type="text/javascript" src="js/jquery_002.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div class="wrap" id="wrap">
+  <div class="modal fade in" id="signIn" tabindex="-1" role="dialog" aria-labelledby="designService" aria-hidden="false" style="display: none; padding-left: 0px;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">关闭</span></button>
+          <div style="text-align:center;"> <span class="lead">登录独角鲸</span></div>
+        </div>
+        <div class="modal-body" id="signin-panel">
+          <div id="auth">
+            <div id="register-panel" style="display: none;">
+              <form id="create-account-form" name="reg" action="http://www.livspace.com/authentication" method="post" autocomplete="on">
+                <fieldset>
+                  <div class="form-group row">
+                    <div class="col-xs-12">
+                      <label for="firstname">姓名</label>
+                      <input type="text" id="firstname" name="firstname" value="" class="auth_account_input required form-control" autocomplete="section-reg given-name">
+                    </div>
+                    <div style="display:none">
+                      <label for="lastname">Last Name</label>
+                      <input type="text" id="lastname" name="lastname" value="-" class="auth_account_input required form-control" autocomplete="section-reg family-name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">电子邮件</label>
+                    <input type="text" id="account-email" name="email" value="" class="auth_account_input required email form-control" autocomplete="section-reg email">
+                  </div>
+                  <div class="form-group">
+                    <label for="email_confirm">Re-enter Email</label>
+                    <input type="text" id="email_confirm" name="email_confirm" value="" class="auth_account_input required email form-control" autocomplete="section-reg email">
+                  </div>
+                  <div class="form-group">
+                    <label for="new-password">New Password</label>
+                    <input type="password" id="new-password" name="passwd" class="auth_account_input required password form-control" autocomplete="section-reg new-password">
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" id="submitAccount" name="submitAccount" class="btn btn-default btn-primary" value="Create Account">
+                  </div>
+                </fieldset>
+              </form>
+              <div class="login-btn" style="margin: 30px 0px; display: none;">已有账户? <a class="login-btn btn btn-default" href="#" id="login-btn" style="display: none;">登录</a></div>
+            </div>
+            <div class="sign-in-form">
+              <div class="text-left" id="login-panel">
+                <form id="login-form" action="http://www.livspace.com/authentication?back=" method="post" class="">
+                  <fieldset>
+                    <div class="form-group">
+                      <label for="phone">手机号码</label>
+                      <input type="text" id="login-phone" name="phone" value="" class="auth_account_input required email form-control" placeholder="手机号码">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">密码</label>
+                      <input type="password" id="password" name="passwd" class="auth_account_input required password form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-default btn-primary" value="登录">
+                    </div>
+                  </fieldset>
+                  <p class="lost_password"><a href="http://www.livspace.com/password-recovery">忘记密码</a></p>
+                </form>
+                <div class="register-btn" style="margin:20px 0px;">New To Livspace? <span class="register-btn btn btn-default" id="register-btn" style="">Create Account</span></div>
+              </div>
+            </div>
+            <div class="social-connect" style="border-top:1px solid #CCC;padding:10px">
+              <div class="sc-buttons">
+                <div class="sc-fb"> <span class="sc-fb-left"></span> <span class="sc-fb-right">
+                  <div class="fb-text social-text"> <i class="fb-icon icon icon-facebook"></i>微信登录</div>
+                  </span></div>
+                <div id="status"></div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="header_inner">
+      <h1 class="logo logo_kn"> <a href="/"> <img class="logo_ca" src="images/logo.png" width="51"> <img class="logo_text" src="images/logo_text.png" width="180" alt="独角鲸"> </a> </h1>
+      <div class="nav_area">
+        <nav class="nav" id="popNav">
+          <div class="nav_close"> <a class="btn_nav_close" id="btnNavClose" href="#"></a> </div>
+          <ul class="nav_list">
+            <li><a href="/ruzhu/" class="active">首页</a></li>
+            <li><a href="/ruzhu/apply.html">登录</a></li>
+          </ul>
+        </nav>
+        <a class="btn_nav" href="#" id="btnNav"></a> </div>
+    </div>
+  </div>
+  <div class="container home cont_type_leng">
+    <nav id="nav12" class="nav-sticky-header container" data-pivot="#sticky-anchor" style="display: none; margin-top: 0px;  margin-bottom: 0px;">
+      <div class="row">
+        <div class="col-sm-2"> <a href="/"> <img class="logo_ca" src="images/logo_white.png" width="128"> </a> </div>
+        <div class="col-sm-10 text-right"> <a href="/ruzhu/apply.html" class="btn12 btn12-primary">立刻入驻</a> </div>
+      </div>
+    </nav>
+    <div class="section section_wrap">
+      <div class="section_intro">
+        <div class="video_area"> </div>
+        <div class="bg_overlay"></div>
+        <h2 class="text_area"> <span class="text_v1">从现在起</span> <span class="text_v2">为你的工作方式</span> <span class="text_v3">打造新的可能性</span> <a class="btn-link btn-pull-down" href="#sidebar-header"> <span class="linx-angle-circled-down text-center h1"></span> </a> </h2>
+      </div>
+    </div>
+    <div class="section section_dsc" data-bg-color="#fff" id="sidebar-header">
+      <div class="inner">
+        <p class="dsc_tit">独角鲸创意达人招募</p>
+        <p class="intro_txt"><strong>轻松入驻、远程服务、订单不断、收入丰厚</strong> </p>
+        <div id="divhovertree" class="dsc">
+          <p>我们正在招募经验丰富的<span><strong>设计师</strong></span>、<span><strong>文案策划</strong></span>、<span><strong>撰稿人</strong></span>、<span><strong>漫画家</strong></span>、<span><strong>动画师</strong></span>，为独角鲸平台上的优质客户提供顶尖创意服务。</p>
+          <p>
+          <h4>不比稿，不竞价</h4>
+          </p>
+          <p>线上接单，远程沟通，服务交付后获得项目佣金。</p>
+        </div>
+        <p class="dsc_tit" style="margin-bottom:18px;">我们的承诺</p>
+        <ul class="list_dsc">
+          <li>
+            <div class="item_dsc">
+              <div class="pic_area"> <img src="images/money.png" width="155"> </div>
+              <div class="info_area">
+                <p><strong>丰厚的收入</strong></p>
+                <p style="font-size:13px;margin-top:10px; ">月收入最高超过20000元，</p>
+                <p style="font-size:13px;margin-top:5px; ">兼职也能赚大钱</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item_dsc">
+              <div class="pic_area"> <img src="images/tie.png" width="155"> </div>
+              <div class="info_area">
+                <p><strong>优质的客户资源</strong></p>
+                <p style="font-size:13px;margin-top:10px;">项目资源丰富，</p>
+                <p style="font-size:13px;margin-top:5px; ">可专注于自己擅长的项目类型</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item_dsc">
+              <div class="pic_area"> <img src="images/target.png" width="155"> </div>
+              <div class="info_area">
+                <p><strong>专业水平的提升</strong></p>
+                <p style="font-size:13px;margin-top:10px;">与更多优秀同行交流心得，</p>
+                <p style="font-size:13px;margin-top:5px; ">实战中提升设计水平</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item_dsc">
+              <div class="pic_area"> <img src="images/group.png" width="155"> </div>
+              <div class="info_area">
+                <p><strong>无限的可能性</strong></p>
+                <p style="font-size:13px;margin-top:10px;">加入鲸奇工社，发现合适的伙伴</p>
+                <p style="font-size:13px;margin-top:5px; ">远程组队，挑战不可能的任务</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section section_course section_dsc green-bg" style="min-height: 450px;" data-bg-color="#FAFAFA">
+      <div class="inner1" style="min-height: 450px;padding:0px;" >
+        <p class="dsc_tit" style="margin-bottom:38px;color:white;">在独角鲸，50%的创意人月收入超过20000元</p>
+        <div class="main2-img reponsive-box"> <img src="images/earn.png" class="img-responsive"> </div>
+      </div>
+    </div>
+    <div class="section section_course section_dsc" style="min-height: 420px;" data-bg-color="#FFFFFF">
+      <div class="inner1" style="min-height: 420px;padding:0px;">
+        <p class="dsc_tit" style="margin-bottom:8px;">招募要求</p>
+        <div class="dsc">
+          <p>从业经验3年以上，精通相关专业技能；</p>
+          <p>善于沟通，耐心细致，有远程工作经验，熟悉各类效率工具及协作软件；</p>
+          <p>精准把握需求要点，能站在客户立场考虑； </p>
+          <p>每月能保证一定的工作时间，接受独角鲸的服务条款。</p>
+        </div>
+      </div>
+    </div>
+    <div class="section section_course section_dsc grey-bg" style="min-height: 360px;" data-bg-color="#FAFAFA">
+      <div class="inner1" style="min-height: 360px;padding:0px;">
+        <p class="dsc_tit" style="margin-bottom:38px;">入驻流程</p>
+        <div class="main2-img reponsive-box"> <img src="images/bg_liucheng.png" class="img-responsive"> </div>
+      </div>
+    </div>
+    <div class="section section_comment section_dsc" data-bg-color="#fff">
+      <div class="inner">
+        <p class="dsc_tit" style="margin-bottom:38px;">听听他们怎么说</p>
+        <div class="comment_list" id="flex-slider">
+          <ul class="slides" style="width: 400%">
+            <li class="comment_item" style="width:25%">
+              <div class="comment_text">
+                <p class="comment">成为自由职业者，掌握自己的生活是很多人的梦想，尤其是顶尖的创意工作者。只是目前缺少独角鲸这样的定位优质人群并且可以持续稳定派单的平台，造成很多伙伴缺乏跨出这步的勇气。因此我相信，独角鲸在这个领域有无限可能～</p>
+              </div>
+              <div class="comment_profile"> <img src="images/qiulf.png" width="162" height="162" alt="邱力非">
+                <dl class="comment_dsc">
+                  <dt class="name">邱力非</dt>
+                  <dd>墨多 CEO</dd>
+                  <dd>「墨多先生」自媒体作者</dd>
+                  <dd>北京电影学院讲师</dd>
+                  <dd>前台湾4A公司创意总监</dd>
+                </dl>
+              </div>
+            </li>
+            <li class="comment_item" style="width:25%">
+              <div class="comment_text">
+                <div class="comment">
+                  <p>“工作变得自由了，这是我加入独角鲸之后最大的感受，时间可以自己控制，每天有更多的时间用来看书，累了还可以给自己放假出去旅行。”</p>
+                </div>
+              </div>
+              <div class="comment_profile"> <img src="images/img_comment_jing.png" width="162" height="162" alt="杨远骋">
+                <dl class="comment_dsc">
+                  <dt class="name">康进</dt>
+                  <dd>方格蓝创意总监／</dd>
+                  <dd>前瑞德设计高级设计师</dd>
+                  <dd>资深设计人</dd>
+                </dl>
+              </div>
+            </li>
+            <li class="comment_item" style="width:25%">
+              <div class="comment_text">
+                <p class="comment">我成为自由设计师之前有很多全职工作机会，但是放弃了，因为那不是我想要的生活。所谓“面向大海，春暖花开”的理想只有建立在自由工作的基础上才可能实现，独角鲸提供了这种可能～！所以如果你和我的理想一样，我建议你试一试。</p>
+              </div>
+              <div class="comment_profile"> <img src="images/img_comment_alex.jpg" width="162" height="162" alt="dana">
+                <dl class="comment_dsc">
+                  <dt class="name">吴大拿</dt>
+                  <dd>自由设计师</dd>
+                </dl>
+              </div>
+            </li>
+            <li class="comment_item" style="width:25%">
+              <div class="comment_text">
+                <p class="comment">‘做独立的设计师’，独角鲸让我觉得我的想法非常可行！这里单量很多，我可以挑选自己擅长的风格设计，可以做自己擅长并且喜欢的事情，我觉得非常适合自己。</p>
+              </div>
+              <div class="comment_profile"> <img src="images/img_comment_zong.png" width="162" height="162" alt="马丁">
+                <dl class="comment_dsc">
+                  <dt class="name">马丁</dt>
+                  <dd>创意家创始人</dd>
+                  <dd>设计品牌孵化器合伙人</dd>
+                </dl>
+              </div>
+            </li>
+            <li class="comment_item" style="width:25%">
+              <div class="comment_text">
+                <p class="comment">在这个纷繁复杂的行业里去做「自由职业者」平台的，真心不简单——他们耗费心力将创意服务的杂乱线索捋成一个个相对标准化的服务包，相信创意标准化的力量。愿独角鲸成为每个创意工作者的良师益友。</p>
+              </div>
+              <div class="comment_profile"> <img src="images/img_comment_jishisan.png" width="162" height="162" alt="麦芽">
+                <dl class="comment_dsc">
+                  <dt class="name">麦芽</dt>
+                  <dd>"针头基金"合伙人</dd>
+                  <dd>杂良集创始人</dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="comment_nav">
+          <div class="comment_btn" id="flex-button"> </div>
+          <div class="comment_dir" id="flex-direction"> <a href="#" class="btn_prev flex-prev"><i class="arr-left"></i></a> <a href="#" class="btn_next flex-next"><i class="arr-right"></i></a> </div>
+        </div>
+      </div>
+    </div>
+    <section class="faq-section" id="faq">
+      <div class="section-subhero bg-light-grey">
+        <div class="container1">
+          <h2 class="section-title text-center">常见问题</h2>
+          <div class="accordion body-content ng-isolate-scope" >
+            <h3 class="title item first"><a><span class="ng-scope">独角鲸是什么？</span></a></h3>
+            <div class="content answer" style="display:none">
+              <p> 独角鲸是一个专注于品质众包的全新互联网创意服务平台，主要服务类目包括：设计、文案、营销。帮助企业高效对接最优秀的创意人/设计师，提供高品质的创意服务。我们期望架起创意人和客户之间信任的桥梁，让客户需求被高品质的实现，让创意人可以享受自由工作的乐趣。 </p>
+              <p> 我们旨在通过提高准入门槛，聚集优秀的设计师进行生态圈改造，打破传统的互联网碰运气式海选模式，剔除恶意压价、海投竞稿、设计抄袭等没保障的粗放式交易规则，重塑优秀创意人的价值平台。 </p>
+            </div>
+           
+            <h3 class="title item"><a><span class="ng-scope">如何入驻？需要具备哪些技能？</span></a> </h3>
+            <div class="content answer" style="display: none;">
+              <p> 从招募页申请入驻，完善信息并通过考核！
+                有问题请加我们的创意人预备Q群:［572807377］或者LINDA同学微信（linda201810）。</p>
+              <p>入驻通过的创意人可得到匹配项目的推送与对接，与客户确认合作后还将提供需求管理服务。我们也正在开发各种工具，后续将提供一系列法务、财务和工作保障。欢迎和我们一起成为独角鲸！ </p>
+              <ul>
+                <li>从业经验3年以上，精通相关专业技能；</li>
+                <li>精准把握需求要点，每月能保证一定的工作时间，接受独角鲸的服务条款。</li>
+                <li>善于沟通，耐心细致，能站在客户立场考虑；</li>
+              </ul>
+            </div>
+            <h3 class="title item"><a><span class="ng-scope">入驻后接单流程是怎样的?</span></a></h3>
+            <div class="content answer" style="display:none">
+              <p> 具体的接单流程为：客户下单付款、款项在独角鲸平台暂存、创意人接单、交付后客户确认评价，款项由平台转到创意人账户，服务完成。 </p>
+            </div>
+            <h3  class="title item"><a><span class="ng-scope">如何和客户沟通？需要到客户所在地嘛？</span></a></h3>
+            <div class="content answer" style="display:none">
+              <p> 创意人是远程接单，不需要和客户当面交流，可以通过电话、微信、QQ等方式和客户沟通联系哦。 </p>
+            </div>
+            <h3 class="title item"><a><span class="ng-scope">我平时工作比较忙，有空的时候接单可以吗?</span></a></h3>
+            <div class="content answer" style="display:none">
+              <p> 当然是可以的。
+                不过平台鼓励积极接单，对接单积极的同学也会有更多的福利，比如等级晋升更容易、每单获得更多报酬等。 </p>
+            </div>
+            <h3 class="title item"><a><span class="ng-scope">一个月会有多少单？我能赚多少钱？</span></a></h3>
+            <div  class="content answer" style="display:none">
+              <p> 独角鲸对创意人和单量之间比例的控制非常严格，我们保证到愿意接单的小伙伴一定随时有单可接；每个月的收入看你的接单量哦，我们大部分愿意接单的创意人，月收入都是在1万以上的。 </p>
+            </div>
+            <h3 class="title item"><a><span class="ng-scope">独角鲸收费吗？</span></a></h3>
+            <div class="content answer" style="display:none">
+              <p> 目前独角鲸的政策是针对前20单会收取项目金额的30%作为平台服务费，如果平均好评度达到4星，则从第21单开始收取10%的服务费。 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-subhero text-center bg-primary">
+      <div class="container">
+        <h2 class="section-title font-gotham-bold">开启全新工作方式</h2>
+        <a class="btn btn-primary btn-white-border btn-block-xs" href="/ruzhu/apply.html" track-trigger="click" style="cursor:pointer;">申请入驻</a> </div>
+    </section>
+    <script>
+
+$(document).ready(function(){
+
+$("#faq h3.title").click(function(){
+if ($(this).hasClass("current")){
+	$(this).siblings(".answer").slideUp("fast").removeClass("item");
+	$(this).removeClass("current").addClass("item");
+}
+else{
+	$(this).addClass("current").removeClass("item").next(".answer").slideToggle(300).siblings(".answer").slideUp("fast");
+$(this).siblings().addClass("item").removeClass("current");
+
+	};
+
+});
+
+
+});
+
+</script>
+    <div class="section footer">
+      <div class="inner">
+        <div class="ft_content">
+          <div class="ft_about">
+            <h3 class="tit">关于我们</h3>
+            <div class="about" style="text-align:center;">
+              <p>「独角鲸」是一个全新的互联网创意服务众包平台，致力于用互联网工具改造传统创意服务行业，帮助企业高效对接最优秀的创意人/设计师，让创业公司享受到更高品质、成本更低的专业服务。</p>
+              <p>目前开通的服务类目包括：各类平面创意设计、MG宣传动画创作、文案撰写等创意服务。</p>
+              <p>我们期望架起创意人和客户之间信任的桥梁，让客户需求被高效高质的实现，让创意人可以享受自由工作的乐趣。</p>
+            </div>
+          </div>
+          <div class="ft_wrap">
+            <div class="weixin"> <img class="code_img" src="images/du_qrcode.jpg" width="113" alt="独角鲸微信公众号">
+              <p class="txt" style="margin-top: 8px;color: #898989;">微信扫一扫关注</p>
+            </div>
+          </div>
+        </div>
+        <div class="ft_copy">© 2016 独角鲸 沪 ICP 备 16028114 号</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+
+        function HoverTreeScroll(div_id) {
+
+            var Obj = $('#' + div_id);
+
+            if (Obj.length != 1) { return false; }
+
+            var offsetTop = arguments[1] ? arguments[1] : 0;
+
+            var ObjTop = Obj.offset().top - $(window).height();
+
+            $(window).scroll(function () {
+
+                if ($(window).scrollTop() > 10) {
+
+                    $("#nav12").css("display", "block");                    
+                }
+
+                else {
+
+                    $("#nav12").css("display", "none");
+
+                }
+
+            });
+
+        }
+        HoverTreeScroll('divhovertree');
+
+    </script> 
+<script src="js/common.min.js"></script> 
+<script src="js/home.min.js"></script>
+</body>
+</html>

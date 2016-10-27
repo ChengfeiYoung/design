@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-package</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logoworks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-colour" transform="translate(-139.000000, -329.000000)">
+            <g id="ic-package" transform="translate(139.000000, 329.000000)">
+                <rect id="Rectangle-431-Copy-19" fill-opacity="0" fill="#FF5D5D" x="0" y="0" width="60" height="60"></rect>
+                <polygon id="Rectangle-549" fill="#6B7A85" points="9 40 37 25 52.4033203 36.8149414 24.5043945 51.9868164"></polygon>
+                <polygon id="Rectangle-543-Copy" stroke="#4B5C65" stroke-linecap="round" stroke-linejoin="round" fill="#9FB0BD" points="3 35.1212121 37 17 37 24.8787879 3 43"></polygon>
+                <polygon id="Rectangle-543-Copy-2" stroke="#4B5C65" stroke-linecap="round" stroke-linejoin="round" fill="#F2B835" points="3 36 23 51.3333333 23 59 3 43.6666667"></polygon>
+                <polygon id="Rectangle-543-Copy-3" stroke="#4B5C65" stroke-linecap="round" stroke-linejoin="round" fill="#9FB0BD" points="37 17 57 32.3333333 57 40 37 24.6666667"></polygon>
+                <polygon id="Rectangle-543" stroke="#4B5C65" stroke-linejoin="round" fill="#F2B835" points="23 51.1212121 57 33 57 40.8787879 23 59"></polygon>
+                <polygon id="Rectangle-543-Copy-4" stroke="#4B5C65" stroke-linejoin="round" fill="#9FB0BC" points="10.7777778 19.6511628 45 2 37.2222222 17.3488372 3 35"></polygon>
+                <polygon id="Rectangle-543-Copy-5" stroke="#4B5C65" stroke-linejoin="round" fill="#F2B835" points="11 19.2413793 45.32 1 50 5.75862069 15.68 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

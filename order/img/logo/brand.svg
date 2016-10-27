@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="150" height="150" rx="30"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="9" y="3" width="8" height="1"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="1" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="9" y="6" width="14" height="1"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="1" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="4" y="8" width="8" height="1"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="1" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="4" y="11" width="14" height="1"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="1" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="4" y="14" width="12" height="1"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="1" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="4" y="17" width="8" height="1"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="1" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-1-1-2-New-select-full" transform="translate(-645.000000, -539.000000)">
+            <g id="Group-10" transform="translate(547.000000, 487.000000)">
+                <g id="Group-5" transform="translate(98.000000, 52.000000)">
+                    <g id="box" stroke="#D3DFE6" stroke-width="2" fill="#F1F6F9">
+                        <use id="Rectangle-8" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-2" transform="translate(81.000000, 50.000000)">
+                        <rect id="Rectangle-134-Copy-4" fill="#D3DFE6" x="9" y="5" width="38" height="46"></rect>
+                        <rect id="Rectangle-144" stroke="#4B5C65" fill="#F1F5F8" x="6" y="0" width="36" height="46"></rect>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                        <rect id="Rectangle-139" stroke="#4B5C65" fill="#6CE7B2" x="33" y="3" width="6" height="6"></rect>
+                        <g id="mail" transform="translate(0.000000, 23.000000)">
+                            <rect id="Rectangle-134-Copy" fill="#D3DFE6" x="8" y="0" width="30" height="20"></rect>
+                            <rect id="Rectangle-61" stroke="#4B5C65" fill="#F1F5F8" x="0" y="0" width="36" height="18"></rect>
+                            <rect id="Rectangle-139" stroke="#4B5C65" fill="#6CE7B2" x="3" y="11" width="4" height="4"></rect>
+                            <polygon id="Triangle-2" stroke="#4B5C65" stroke-linecap="round" stroke-linejoin="round" fill="#F1F5F8" transform="translate(18.000000, 6.000000) scale(-1, -1) translate(-18.000000, -6.000000) " points="18 3.55271368e-15 36 12 1.42108547e-14 12"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(21.000000, 60.000000)">
+                        <rect id="Rectangle-134-Copy" fill="#D3DFE6" x="4" y="5" width="44" height="26"></rect>
+                        <rect id="Rectangle-134" stroke="#4B5C65" fill="#F1F5F8" x="5.68434189e-14" y="0" width="43" height="26"></rect>
+                        <rect id="Rectangle-139" stroke="#4B5C65" fill="#6CE7B2" x="26" y="7" width="12" height="12"></rect>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-10)" stroke-width="2" xlink:href="#path-9"></use>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-12)" stroke-width="2" xlink:href="#path-11"></use>
+                        <use id="Rectangle-31-Copy" stroke="#4B5C65" mask="url(#mask-14)" stroke-width="2" xlink:href="#path-13"></use>
+                        <path d="M32.744,13.6 L32.04,11.676 C32.0053332,11.5906662 31.9693335,11.4893339 31.932,11.372 C31.8946665,11.2546661 31.8573335,11.1280007 31.82,10.992 C31.7853332,11.1280007 31.7493335,11.2553327 31.712,11.374 C31.6746665,11.4926673 31.6386668,11.5959996 31.604,11.684 L30.904,13.6 L32.744,13.6 Z M34.644,15.784 L33.812,15.784 C33.7186662,15.784 33.642667,15.7606669 33.584,15.714 C33.525333,15.6673331 33.4813335,15.6093337 33.452,15.54 L33.02,14.36 L30.624,14.36 L30.192,15.54 C30.1706666,15.6013336 30.1293336,15.6573331 30.068,15.708 C30.0066664,15.7586669 29.9306671,15.784 29.84,15.784 L29,15.784 L31.276,10 L32.372,10 L34.644,15.784 Z" id="A" fill="#4B5C65"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

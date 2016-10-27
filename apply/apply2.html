@@ -1,0 +1,326 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2">
+    <meta charset="UTF-8">
+    <meta name="description" content="申请入驻独角鲸，立刻开始自由工作">
+    <meta name="keywords" content="威客,众包,logo设计,品牌设计师,UI 设计师,文案策划,撰稿人,自由职业">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/apply.css">
+    <title>
+        
+创意人入驻 - 独角鲸
+
+    </title>
+</head>
+<body>
+    
+    <div class="wrap" id="wrap">
+
+        
+        <div class="header">
+            <div class="header_inner">
+
+                
+                <h1 class="logo">
+                    <a href="/">
+                        <img class="logo_text" src="images/logo_white.png" width="140">
+                    </a>
+                </h1>      
+                                                <div class="nav_area">
+                    <nav class="nav" id="popNav">
+                        <div class="nav_close">
+                            <a class="btn_nav_close" id="btnNavClose" href="#"></a>
+                        </div>
+                        <ul class="nav_list">
+                            <li><a href="/ruzhu/">首页</a></li>                       
+                            <li><a href="/ruzhu/apply.html">入驻状态查询</a></li>
+                            <li><a href="/ruzhu/apply.html">退出</a></li>
+                        </ul>
+                    </nav>
+                    <a class="btn_nav" href="#" id="btnNav"></a>
+                </div>   
+            </div>
+        </div>
+        
+<div class="container">
+    <div class="section_apply_title">
+        <div class="inner">
+            <div class="text_area">
+                <h3>申请入驻独角鲸</h3>
+            </div>
+        </div>
+    </div>
+    <div class="section_apply" style="margin-bottom:120px;">
+<div class="signup_designer_auth login">
+    <div class="title24">请提交如下入驻申请资料</div>
+    <div class="title14">*号均为必填项，我们会尽快审核并给予反馈</div>
+    <form id="form1" name="form1" method="post" action="">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+          <td class="font14 td_height width15">手机*</td>
+          <td class="width85">
+            <input type="text" name="textfield" id="textfield" class="input_box disinput"/ disabled="disabled" value="17090077871">
+          </td>
+        </tr>
+        <tr>
+          <td class="font14 td_height width15">姓名*</td>
+          <td class="width85">
+            <input type="text" name="textfield" id="textfield" class="input_box"/>
+          </td>
+        </tr>
+        <tr class="hidden">
+          <td>&nbsp;</td>
+          <td class="red12 td_height">* 姓名不能为空！</td>
+        </tr>
+         <tr>
+          <td class="font14 td_height width15">所在地区</td>
+
+          <td>
+
+            <select name="province" id="province" onchange="getArea(this)"class="login_select">
+
+                            <option value="110000">北京市</option>
+
+                            <option value="120000">天津市</option>
+
+                            <option value="130000">河北省</option>
+
+                            <option value="140000">山西省</option>
+
+                            <option value="150000">内蒙古自治区</option>
+
+                            <option value="210000">辽宁省</option>
+
+                            <option value="220000">吉林省</option>
+
+                            <option value="230000">黑龙江省</option>
+
+                            <option value="310000">上海市</option>
+
+                            <option value="320000">江苏省</option>
+
+                            <option value="330000">浙江省</option>
+
+                            <option value="340000">安徽省</option>
+
+                            <option value="350000">福建省</option>
+
+                            <option value="360000">江西省</option>
+
+                            <option value="370000">山东省</option>
+
+                            <option value="410000">河南省</option>
+
+                            <option value="420000">湖北省</option>
+
+                            <option value="430000">湖南省</option>
+
+                            <option value="440000">广东省</option>
+
+                            <option value="450000">广西壮族自治区</option>
+
+                            <option value="460000">海南省</option>
+
+                            <option value="500000">重庆市</option>
+
+                            <option value="510000">四川省</option>
+
+                            <option value="520000">贵州省</option>
+
+                            <option value="530000">云南省</option>
+
+                            <option value="540000">西藏自治区</option>
+
+                            <option value="610000">陕西省</option>
+
+                            <option value="620000">甘肃省</option>
+
+                            <option value="630000">青海省</option>
+
+                            <option value="640000">宁夏回族自治区</option>
+
+                            <option value="650000">新疆维吾尔自治区</option>
+
+                            <option value="659029">香港特别行政区</option>
+
+                          </select>
+
+            <select name="city" id="city" class="login_select">
+
+                             <option value="110100">市辖区</option>
+
+                            <option value="110200">县</option>
+
+                          </select>
+
+            <select name="district" id="district" class="login_select" style="display:none;">
+
+                             <option value="110101">东城区</option>
+
+                            <option value="110102">西城区</option>
+
+                            <option value="110105">朝阳区</option>
+
+                            <option value="110106">丰台区</option>
+
+                            <option value="110107">石景山区</option>
+
+                            <option value="110108">海淀区</option>
+
+                            <option value="110109">门头沟区</option>
+
+                            <option value="110111">房山区</option>
+
+                            <option value="110112">通州区</option>
+
+                            <option value="110113">顺义区</option>
+
+                            <option value="110114">昌平区</option>
+
+                            <option value="110115">大兴区</option>
+
+                            <option value="110116">怀柔区</option>
+
+                            <option value="110117">平谷区</option>
+
+                          </select>
+
+
+
+          </td>
+
+        </tr>
+
+        <tr class="hidden">
+
+          <td>&nbsp;</td>
+
+          <td class="red12 td_height">* 所在地不能为空！</td>
+
+        </tr>
+        <tr>
+          <td class="font14 td_height width15">常用邮箱*</td>
+          <td><input type="text" name="textfield2" id="textfield2" class="input_box"/></td>
+        </tr>
+        <tr class="hidden">
+          <td>&nbsp;</td>
+          <td class="red12 td_height">* 请输入正确的电子邮箱！</td>
+          <td class="red12 td_height">* 请输入电子邮箱！</td>
+        </tr>
+        <tr>
+        <tr>
+          <td class="font14 td_height width15">微信号*</td>
+          <td><input type="text" name="textfield2" id="textfield2" class="input_box"/></td>
+        </tr>
+        <tr class="hidden">
+          <td>&nbsp;</td>
+          <td class="red12 td_height">* 请输入微信号！</td>
+        </tr>
+
+        
+            <tr>
+                        <td class="font14 td_height width15" style="vertical-align:top;padding-top:15px;">工作状态*</td>
+                        <td class="width85">
+<div class="" com-name="id_radio" name="com37" serialnum="9" style="margin-top:15px;"> 
+	<ul class="">
+		<li class="optionsLi" style="margin-top:0px;">
+			<input class="optionBtn" type="radio" name="radio-com37" id="radio-id-9-0" value="0"> 
+			<label class="optionVal" for="radio-id-9-0">个人全职接活/自由职业</label> 
+		</li> 
+        <li class="optionsLi">
+			<input class="optionBtn" type="radio" name="radio-com37" id="radio-id-9-1" value="0"> 
+			<label class="optionVal" for="radio-id-9-1">个人兼职接活</label> 
+		</li> 
+                <li class="optionsLi">
+			<input class="optionBtn" type="radio" name="radio-com37" id="radio-id-9-2" value="0"> 
+			<label class="optionVal" for="radio-id-9-2">有独立工作室／公司</label> 
+		</li> 
+       <li class="optionsLi">
+			<input class="optionBtn" type="radio" name="radio-com37" id="radio-id-9-3" value="0"> 
+			<label class="optionVal" for="radio-id-9-3">有固定团队/兼职接活</label> 
+		</li> 
+		<li class="clearB"></li>
+		</ul>
+</div>
+                        </td>
+                      </tr>
+                      <tr class="hidden">
+                        <td>&nbsp;</td>
+                        <td class="red12 td_height">* 请选择工作状态！</td>
+                      </tr>
+                       <tr>
+                        <td class="font14 td_height width15">公司名称*</td>
+                        <td class="width85">
+                          <input type="text" name="textfield" id="textfield" class="input_box" />
+                        </td>
+                      </tr>
+                      <tr class="hidden">
+                        <td>&nbsp;</td>
+                        <td class="red12 td_height">* 公司名称不能为空</td>
+                      </tr>
+                       <td class="font14 td_height width15">您的职位*</td>
+                        <td class="width85">
+                          <input type="text" name="textfield" id="textfield" class="input_box" />
+                        </td>
+                      </tr>
+                      <tr class="hidden">
+                        <td>&nbsp;</td>
+                        <td class="red12 td_height">* 职位不能为空</td>
+                      </tr>
+                                            <tr>
+                        <td class="font14 td_height width15">网站</td>
+                        <td class="width85">
+                          <input type="text" name="textfield" id="textfield" class="input_box" />
+                        </td>
+                      </tr>
+                         <tr>
+                        <td class="font14 td_height width15" style="vertical-align:top;padding-top:15px;">作品链接</td>
+                        <td class="width85"  style="padding-top:15px;">
+                          <textarea name="textarea" id="textarea" cols="45" rows="5" class="textarea_box" placeholder="请填写您或您公司/工作室的相关作品线上链接，每行填写一个网址"></textarea>
+                        </td>
+                      </tr>
+                       <tr>
+                        <td class="font14 td_height width15" style="vertical-align:top;padding-top:15px;">上传作品</td>
+                        <td class="width85"  style="padding-top:15px;padding-bottom:10px;">
+                           <div class="uploadFile"> <input type="file" size="1" class="upload_input fs_content" name="_FILE_" data-url="handler/handleUploadSingleFormFile.php"> <div class="upload_progress"></div> <span class="upload_text fs_content">请选择小于20M文件进行上传</span> <img class="upload_img" src="images/importFileAdd.png"> <div class="clearB"></div> </div>
+                        </td>
+                      </tr>
+                                                                      <tr class="">
+                        <td>&nbsp;</td>
+                        <td class="red12 td_height">* 请上传作品或填写在线链接</td>
+                      </tr> 
+                       <tr>
+                       <tr>
+                        <td class="font14 td_height width15" style="vertical-align:top;padding-top:25px;">简介</td>
+                        <td class="width85"  style="padding-top:25px;">
+                          <textarea name="textarea" id="textarea" cols="45" rows="5" class="textarea_box" placeholder="让我们了解你多一点，如您个人擅长的技能（如有团队，请说明在团队中的角色）、项目经历、获奖经历等"></textarea>
+                        </td>
+                      </tr>
+      </table>
+
+
+      <div><input type="submit" name="button" id="button" class="btn" value="提交申请" /></div>
+    </form>
+</div>
+</div>
+
+
+        
+        <div class="footer">
+            <div class="inner">
+                <div class="ft_copy">© 2016 独角鲸 沪 ICP 备 16028114 号</div>
+            <div>
+        </div>
+        
+    </div>
+    
+    <script src="js/common.min.js"></script>
+    
+</body>
+</html>
+
